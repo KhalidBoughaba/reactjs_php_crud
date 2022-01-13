@@ -7,7 +7,7 @@ function App() {
   return (
     <Provider value={data}>
       <div className="App">
-        <h1>React JS + PHP CRUD Application</h1>
+        <h1>List of Students</h1>
         <div className="wrapper">
           <section className="left-side">
             <Form />
@@ -15,6 +15,13 @@ function App() {
           <section className="right-side">
             <UserList />
           </section>
+        </div>
+        <div>
+          <form action="http://localhost:8000/" method="post">
+            <button type="submit" class="btn logout">
+              Logout
+            </button>
+          </form>
         </div>
       </div>
     </Provider>

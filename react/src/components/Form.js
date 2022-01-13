@@ -21,7 +21,7 @@ const Form = () => {
 
   return (
     <form className="insertForm" onSubmit={submitUser}>
-      <h2>Insert User</h2>
+      <h2>Add Students</h2>
       <label htmlFor="_name">Name</label>
       <input
         type="text"
